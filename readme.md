@@ -1,7 +1,11 @@
-# Clover
-## [Preview](https://esappear.github.io/clover/)
-![preview](https://media.githubusercontent.com/avatars/8626321?orig=1&token=ANM6mziZ-bdE9fPaDWu1LVN0JQ-Vz-k_ks5b0I9FwA%3D%3D)
-
+# Clover-hoohan
+## About
+Special thanks to [@esappear(Shawn)](https://github.com/esappear)'s theme "[clover](https://github.com/esappear/hexo-theme-clover)".  
+This theme is based on a hexo theme "clover". So this repository's name is "clover-hoohan".  
+**This theme is not yet complete.**
+## [Preview the theme](https://hoohan.cn)
+  
+# The Instruction of hexo-theme-clover
 ## Prerequisite
 You got a blog project built by [Hexo](https://hexo.io). Your project directory should like this:
 ```
@@ -113,16 +117,4 @@ card_style:
   archive: article-card
   tag: article-card
   category: article-card
-```
-
-### Code Highlight
-- You should disable the default highlight setting in `.config.yml` and then get gihub-style code highlight powered by `hight.js`.
-```
-highlight:
-  enable: false
-```
-- declare language of code
-```md
-```js
-console.log('hello world);
 ```

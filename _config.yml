@@ -1,6 +1,6 @@
 # Custom nav
 nav:
-  title: "Clover Tuan"
+  title: "Hoohan's Blog"
 
 favicon: ""
 
@@ -11,15 +11,19 @@ background:
 
 # Social media
 social:
-  Dribbble: https://dribbble.com/clovertuan
-  Behance: https://www.behance.net/clovertuan
-  Lofter: http://clovertuan.lofter.com/
-  Instagram: https://www.instagram.com/clovertuan/
-  GitHub: https://github.com/cloverTuan
+  # Dribbble: https://dribbble.com/clovertuan
+  # Behance: https://www.behance.net/clovertuan
+  # Lofter: http://clovertuan.lofter.com/
+  # Instagram: https://www.instagram.com/clovertuan/
+  GitHub: https://github.com/Hoohan
 
 # Custom footer
-mail: d.guangying@foxmail.com
-copyright: All rights reserved @Clover Tuan
+mail: work@hoohan.cn
+copyright: All rights reserved @Hoohan
+ICP: 冀ICP备19000089号
+ICPurl: http://beian.miit.gov.cn/
+govb: 冀公网安备13043302000128号
+govburl: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13043302000128
 
 # Custom menu. You can specific the path or the card style (only useful for category page).
 # Two kinds of card style: 'project-card', 'article-card',
@@ -32,7 +36,7 @@ menu:
   #   path: /tags/Stuffs
   #   card: article-card
   Home: /
-  Archive: /archives
+  # Archive: /archives
   About: /about
 
 # Specific default categories or tags of home page.
@@ -61,3 +65,8 @@ node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
+
+# MathJax Support
+mathjax:
+  enable: true
+  per_page: true
